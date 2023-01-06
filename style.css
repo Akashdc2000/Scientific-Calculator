@@ -1,0 +1,31 @@
+body{
+			margin: 20px;
+		}
+		#btn {
+			width: 100px;
+			height: 60px;
+			font-size: 30px;
+			border-radius: 10px;
+		}
+		#btn1 {
+			width: 118.5%;
+			height: 60px;
+			font-size: 30px;
+			border-radius: 10px;
+		}
+		input[type="button"] {
+			background-color:pink;
+			color: black;
+			border: solid black 2px;
+			width:100%
+		}
+		input[type="text"] {
+			background-color:white;
+			border: solid black 2px;
+			width:100%
+		}
+		.container{
+			border: solid black 2px;
+			width: fit-content;
+			margin: auto;
+		}
