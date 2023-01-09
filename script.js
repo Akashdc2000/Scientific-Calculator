@@ -25,5 +25,13 @@
 			}
 
 			else
-				calc.display.value = eval(calc.display.value);
+			{
+				try{
+					calc.display.value = eval(calc.display.value);
+				}
+				catch(error){
+					calc.display.value = "Syntax Error";
+				}
+				
+			}
 		}
